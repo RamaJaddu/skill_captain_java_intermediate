@@ -1,10 +1,16 @@
+Once upon a time, there was a wise sage named Narada who wanted to test the intelligence of Lord Sri Krishna. 
+He came up with a clever plan. Narada went to each of Sri Krishna's wives individually and praised the wonders of Java programming language. 
+He told them that whoever learns Java well, Lord Sri Krishna would grant them whatever they desired.
 
-Once upon a time, there was a wise sage named Narada who wanted to test the intelligence of Lord Sri Krishna. He came up with a clever plan. Narada went to each of Sri Krishna's wives individually and praised the wonders of Java programming language. He told them that whoever learns Java well, Lord Sri Krishna would grant them whatever they desired.
+Excited by the prospect of learning Java and getting their wishes fulfilled, Sri Krishna's wives eagerly requested Narada to teach them. 
+However, Narada, being wise, suggested that they ask Sri Krishna himself to teach them.
 
-Excited by the prospect of learning Java and getting their wishes fulfilled, Sri Krishna's wives eagerly requested Narada to teach them. However, Narada, being wise, suggested that they ask Sri Krishna himself to teach them.
+Sri Krishna's wives, full of enthusiasm, waited for him to return. When Sri Krishna came, they excitedly told him about Narada's challenge and 
+requested him to teach them Java. Sri Krishna, knowing the intentions behind Narada's challenge, pretended to be unaware of Java and acted as if 
+he didn't know anything about it. He wanted to think deeply about how to handle the situation.
 
-Sri Krishna's wives, full of enthusiasm, waited for him to return. When Sri Krishna came, they excitedly told him about Narada's challenge and requested him to teach them Java. Sri Krishna, knowing the intentions behind Narada's challenge, pretended to be unaware of Java and acted as if he didn't know anything about it. He wanted to think deeply about how to handle the situation.
+After much contemplation, Sri Krishna came up with a plan. He decided to join a Java training program called SKILL CAPTAIN. 
+He assured his wives that after completing the training, he would be able to answer any doubts they had about Java.
 
-After much contemplation, Sri Krishna came up with a plan. He decided to join a Java training program called SKILL CAPTAIN. He assured his wives that after completing the training, he would be able to answer any doubts they had about Java.
-
-With Sri Krishna by their side, his wives happily joined the training program and enjoyed learning Java together. And so, with patience and determination, they embarked on this new journey of knowledge and discovery.
+With Sri Krishna by their side, his wives happily joined the training program and enjoyed learning Java together. And so, 
+with patience and determination, they embarked on this new journey of knowledge and discovery.
