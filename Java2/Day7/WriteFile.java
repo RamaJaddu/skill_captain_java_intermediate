@@ -75,8 +75,10 @@ public class WriteFile {
     }
 
     public static void main(String[] args)  {
-
+        // Take the input from user
         promptUser();
+
+        //Create a file by using this method 
         fileWriter(sentance, path);
 
         }
