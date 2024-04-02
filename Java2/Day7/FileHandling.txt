@@ -1,0 +1,37 @@
+    File Handling
+
+
+File handling implies how to read from and write to file in Jaca provides the basic I/O package for reading and writing streams, java.io package allows to do all input and output tasks in Java.
+
+File handling in Java implies reading from and writing data to a file. The File class from the java.io package, allows us to work with different formats of files. In order to use the File class, you need to create an object of the class and specify the filename or directory name.
+
+The process of file handling refers to how we store the available data or info in a file with the help of a program.
+
+The goal of file handling is to allow a program to access data stored in a file, manipulate it, and write it back to the file.
+
+
+
+Stream
+
+Stream is sequence of data.
+There are two types of streams are available
+1.Byte Stream
+2. Character Stream
+
+
+
+Java File Methods
+canRead()-----------Teats whether file is readable or not
+canWrite()-----Tests ehether the file is writable or not
+createNewFile()-------Creates an emptyfile
+Delete()------Deletes a file
+Exists()------Tests whether the file exists or not
+getName()-------Returnsthe name of the file
+getAbsolutePath()---------Returns the absolute pathname of the file
+Length()--------Returns the array of the file in bytes
+List()-------Returns the array of the file in the directory
+MKdir()--------Creates a directory
+
+
+
+File Operations in Java
