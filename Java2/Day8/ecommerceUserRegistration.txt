@@ -1,0 +1,40 @@
+e-commerce user registration
+
+In Progress
+
+Concept:
+
+Classes:
+
+UserRegistrationExample
+main() method that executes the program
+isValidEmail() method to validate email address
+
+User
+- Represents a user in the e-commerce application
+- Has the following attributes:
+name: String
+email: String
+password: String
+address: String
+- Has getter and setter methods for each attribute
+
+UserRepository
+- Stores the user data in an in-memory data structure, such as an ArrayList or HashMap
+- Has the following methods:
+addUser(User user): Adds a user to the repository
+getUser(String email): Retrieves a user from the repository by email address
+getAllUsers(): Retrieves all users from the repository
+
+
+
+Resources:
+
+
+Assignments:
+
+Create a Java program that simulates user registration for an e-commerce application.
+The program should allow users to enter their name, email address, password and shipping address.
+The program should store the user data in an in-memory data structure, such as an ArrayList or HashMap.
+The program should also validate user input to ensure that all required fields are entered and that the email address is in a valid format.
+
