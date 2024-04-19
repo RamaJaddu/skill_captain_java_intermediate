@@ -1,0 +1,74 @@
+Abstract Class
+
+To Do
+
+Concept:
+
+An abstract class in Java is a class that cannot be instantiated on its own, but serves as a blueprint or a general template for other classes.
+
+An abstract class can have both abstract and non-abstract methods. Abstract methods are defined but not implemented in the abstract class, meaning that they do not have any code inside them. Instead, their implementation is left to the subclasses that inherit from the abstract class. Subclasses must provide an implementation for all the abstract methods inherited from the abstract class.
+
+An abstract class can also have non-abstract methods with actual implementation. These methods can be used by both the abstract class itself and its subclasses.
+
+Abstract classes are useful when you want to define a common interface or a set of shared methods for a group of related classes, while also allowing for some customization by the individual subclasses. For example, you could create an abstract class called Shape that defines a set of abstract methods such as calculateArea() and calculatePerimeter(), which can be implemented differently by each subclass such as Rectangle, Triangle, and Circle.
+
+In summary, abstract classes provide a way to create a blueprint for other classes to follow, with the flexibility for customization and specialization by the subclasses.
+
+  
+abstract class Shape {
+    protected String color;
+
+    public Shape(String color) {
+        this.color = color;
+    }
+
+    // Abstract method that must be implemented by subclasses     
+    public abstract double calculateArea();
+
+    // Concrete method     
+    public void displayColor() {
+        System.out.println("The color of the shape is: " + color);
+    }
+}
+
+class Circle extends Shape {
+    private double radius;
+
+    public Circle(String color, double radius) {
+        super(color);
+        this.radius = radius;
+    }
+
+    @Override
+    public double calculateArea() {
+        return Math.PI * radius * radius;
+    }
+}
+
+class Rectangle extends Shape {
+    private double width;
+    private double height;
+
+    public Rectangle(String color, double width, double height) {
+        super(color);
+        this.width = width;
+        this.height = height;
+    }
+
+    @Override
+    public double calculateArea() {
+        return width * height;
+    }
+}
+
+public class MyFirstCode {
+    public static void main(String[] args) {
+        Circle circle = new Circle("Red", 5.0);
+        Rectangle rectangle = new Rectangle("Blue", 3.0, 4.0);
+        circle.displayColor();
+        System.out.println("Area of circle: " + circle.calculateArea());
+        System.out.println();
+        rectangle.displayColor();
+        System.out.println("Area of rectangle: " + rectangle.calculateArea());
+    }
+} 
